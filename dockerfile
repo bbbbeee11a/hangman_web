@@ -1,4 +1,4 @@
-VFROM python:3.8-slim-buster
+FROM python:3.8-slim-buster
 LABEL Maintainer="bbbbeeella24@gmail.com"
 WORKDIR /app
 COPY app.py ./
